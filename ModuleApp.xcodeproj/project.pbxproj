@@ -18,6 +18,16 @@
 		8E4DF62723B51BCA00810469 /* WeatherCoreAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4DF62623B51BCA00810469 /* WeatherCoreAssembly.swift */; };
 		8E4DF62923B51C8100810469 /* FeatureAssembliable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4DF62823B51C8100810469 /* FeatureAssembliable.swift */; };
 		8E4DF62B23B51FF800810469 /* WeatherCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4DF62A23B51FF800810469 /* WeatherCoordinator.swift */; };
+		8E656C6323B53E6A00CFAE89 /* DI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E6596B323B4C85A007466FC /* DI.framework */; };
+		8E656C6423B53E6A00CFAE89 /* WeatherCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E6596C423B4C87C007466FC /* WeatherCore.framework */; };
+		8E656C6523B53E7600CFAE89 /* DI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E6596B323B4C85A007466FC /* DI.framework */; };
+		8E656C6623B53E7600CFAE89 /* WeatherAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E6596D523B4C899007466FC /* WeatherAPI.framework */; };
+		8E656C6A23B53FB000CFAE89 /* WeatherAPIProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E656C6923B53FB000CFAE89 /* WeatherAPIProtocol.swift */; };
+		8E656C6C23B53FCD00CFAE89 /* WeatherRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E656C6B23B53FCD00CFAE89 /* WeatherRepositoryProtocol.swift */; };
+		8E656C6F23B5412E00CFAE89 /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E656C6E23B5412E00CFAE89 /* CurrentWeather.swift */; };
+		8E656C7123B5421100CFAE89 /* WeatherEndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E656C7023B5421100CFAE89 /* WeatherEndPoints.swift */; };
+		8E656C7323B5422800CFAE89 /* WeatherAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E656C7223B5422800CFAE89 /* WeatherAPI.swift */; };
+		8E656C7523B5423900CFAE89 /* WeatherRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E656C7423B5423900CFAE89 /* WeatherRepository.swift */; };
 		8E65969523B4C81F007466FC /* NetworkUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E65969323B4C81F007466FC /* NetworkUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8E65969823B4C81F007466FC /* NetworkUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E65969123B4C81F007466FC /* NetworkUtils.framework */; };
 		8E65969923B4C81F007466FC /* NetworkUtils.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8E65969123B4C81F007466FC /* NetworkUtils.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -48,6 +58,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		8E656C6123B53E4900CFAE89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E7A789D23B4A54C0004BDF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E6596D423B4C899007466FC;
+			remoteInfo = WeatherAPI;
+		};
 		8E65969623B4C81F007466FC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 8E7A789D23B4A54C0004BDF8 /* Project object */;
@@ -149,6 +166,12 @@
 		8E4DF62623B51BCA00810469 /* WeatherCoreAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCoreAssembly.swift; sourceTree = "<group>"; };
 		8E4DF62823B51C8100810469 /* FeatureAssembliable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureAssembliable.swift; sourceTree = "<group>"; };
 		8E4DF62A23B51FF800810469 /* WeatherCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCoordinator.swift; sourceTree = "<group>"; };
+		8E656C6923B53FB000CFAE89 /* WeatherAPIProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAPIProtocol.swift; sourceTree = "<group>"; };
+		8E656C6B23B53FCD00CFAE89 /* WeatherRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherRepositoryProtocol.swift; sourceTree = "<group>"; };
+		8E656C6E23B5412E00CFAE89 /* CurrentWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
+		8E656C7023B5421100CFAE89 /* WeatherEndPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherEndPoints.swift; sourceTree = "<group>"; };
+		8E656C7223B5422800CFAE89 /* WeatherAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAPI.swift; sourceTree = "<group>"; };
+		8E656C7423B5423900CFAE89 /* WeatherRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherRepository.swift; sourceTree = "<group>"; };
 		8E65969123B4C81F007466FC /* NetworkUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NetworkUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E65969323B4C81F007466FC /* NetworkUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkUtils.h; sourceTree = "<group>"; };
 		8E65969423B4C81F007466FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -199,6 +222,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E656C6323B53E6A00CFAE89 /* DI.framework in Frameworks */,
+				8E656C6423B53E6A00CFAE89 /* WeatherCore.framework in Frameworks */,
 				C1215E3D868421326A95DD69 /* Pods_MainCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -215,6 +240,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E656C6523B53E7600CFAE89 /* DI.framework in Frameworks */,
+				8E656C6623B53E7600CFAE89 /* WeatherAPI.framework in Frameworks */,
 				D3CA75C9B8ABCBC8265FE057 /* Pods_WeatherCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,6 +319,33 @@
 			path = DI;
 			sourceTree = "<group>";
 		};
+		8E656C6723B53EEF00CFAE89 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				8E4DF61A23B5131A00810469 /* Coordinatable.swift */,
+				8E75FD1B23B5252E0099FDCE /* NavigationCoordinatable.swift */,
+				8E4DF62823B51C8100810469 /* FeatureAssembliable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		8E656C6823B53F6700CFAE89 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				8E656C6923B53FB000CFAE89 /* WeatherAPIProtocol.swift */,
+				8E656C6B23B53FCD00CFAE89 /* WeatherRepositoryProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		8E656C6D23B53FD300CFAE89 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				8E656C6E23B5412E00CFAE89 /* CurrentWeather.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
 		8E65969223B4C81F007466FC /* NetworkUtils */ = {
 			isa = PBXGroup;
 			children = (
@@ -317,9 +371,7 @@
 		8E6596B423B4C85A007466FC /* DI */ = {
 			isa = PBXGroup;
 			children = (
-				8E4DF61A23B5131A00810469 /* Coordinatable.swift */,
-				8E75FD1B23B5252E0099FDCE /* NavigationCoordinatable.swift */,
-				8E4DF62823B51C8100810469 /* FeatureAssembliable.swift */,
+				8E656C6723B53EEF00CFAE89 /* Protocols */,
 				8E6596B523B4C85A007466FC /* DI.h */,
 				8E6596B623B4C85A007466FC /* Info.plist */,
 			);
@@ -341,6 +393,11 @@
 		8E6596D623B4C899007466FC /* WeatherAPI */ = {
 			isa = PBXGroup;
 			children = (
+				8E656C6823B53F6700CFAE89 /* Protocols */,
+				8E656C6D23B53FD300CFAE89 /* Entities */,
+				8E656C7023B5421100CFAE89 /* WeatherEndPoints.swift */,
+				8E656C7223B5422800CFAE89 /* WeatherAPI.swift */,
+				8E656C7423B5423900CFAE89 /* WeatherRepository.swift */,
 				8E6596D723B4C899007466FC /* WeatherAPI.h */,
 				8E6596D823B4C899007466FC /* Info.plist */,
 			);
@@ -579,6 +636,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				8E656C6223B53E4900CFAE89 /* PBXTargetDependency */,
 				8E75FD1623B523F00099FDCE /* PBXTargetDependency */,
 			);
 			name = WeatherCore;
@@ -656,6 +714,7 @@
 					};
 					8E6596D423B4C899007466FC = {
 						CreatedOnToolsVersion = 11.1;
+						LastSwiftMigration = 1110;
 					};
 					8E7A78A423B4A54C0004BDF8 = {
 						CreatedOnToolsVersion = 11.1;
@@ -928,6 +987,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E656C7523B5423900CFAE89 /* WeatherRepository.swift in Sources */,
+				8E656C6C23B53FCD00CFAE89 /* WeatherRepositoryProtocol.swift in Sources */,
+				8E656C7123B5421100CFAE89 /* WeatherEndPoints.swift in Sources */,
+				8E656C7323B5422800CFAE89 /* WeatherAPI.swift in Sources */,
+				8E656C6F23B5412E00CFAE89 /* CurrentWeather.swift in Sources */,
+				8E656C6A23B53FB000CFAE89 /* WeatherAPIProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -945,6 +1010,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		8E656C6223B53E4900CFAE89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E6596D423B4C899007466FC /* WeatherAPI */;
+			targetProxy = 8E656C6123B53E4900CFAE89 /* PBXContainerItemProxy */;
+		};
 		8E65969723B4C81F007466FC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 8E65969023B4C81F007466FC /* NetworkUtils */;
@@ -1243,6 +1313,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DDBCFCCFFBEEF64DE8331FB2 /* Pods-WeatherAPI.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -1261,6 +1332,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1272,6 +1344,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FFC1FDC599714838425E4B4E /* Pods-WeatherAPI.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;

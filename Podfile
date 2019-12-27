@@ -52,6 +52,7 @@ target 'WeatherCore' do
 	rx
 	di
 	ui
+	network
 end
 
 target 'WeatherAPI' do

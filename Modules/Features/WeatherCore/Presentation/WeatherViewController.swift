@@ -24,6 +24,7 @@ class WeatherViewController: UIViewController {
         
         setupUI()
         makeConstraints()
+        viewModel.getCurrentWeather()
     }
     
     private func setupUI() {

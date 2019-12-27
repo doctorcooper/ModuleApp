@@ -6,8 +6,26 @@
 //  Copyright © 2019 Cooper. All rights reserved.
 //
 
-import Foundation
+import WeatherAPI
+import RxSwift
 
 final class WeatherViewModel {
+    
+    private let repository: WeatherRepositoryProtocol
+    
+    private let disposeBag = DisposeBag()
+    
+    init(repository: WeatherRepositoryProtocol) {
+        self.repository = repository
+    }
+    
+    func getCurrentWeather() {
+        repository.getCurrentWeather(city: "kek")
+            .subscribe(onSuccess: { weather in
+                print(weather)
+            }, onError: { error in
+                print(error)
+            }).disposed(by: disposeBag)
+    }
     
 }
